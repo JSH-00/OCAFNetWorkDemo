@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16392D3B64B50A997A599369 /* Pods_OCAFNetWorkDemo_OCAFNetWorkDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B361F9081944252A849B5395 /* Pods_OCAFNetWorkDemo_OCAFNetWorkDemoUITests.framework */; };
+		57294C7726D23713007C0677 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294C7626D23713007C0677 /* AppDelegate.m */; };
+		57294C7A26D23713007C0677 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294C7926D23713007C0677 /* SceneDelegate.m */; };
+		57294C7D26D23713007C0677 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294C7C26D23713007C0677 /* ViewController.m */; };
+		57294C8026D23713007C0677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57294C7E26D23713007C0677 /* Main.storyboard */; };
+		57294C8226D23715007C0677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57294C8126D23715007C0677 /* Assets.xcassets */; };
+		57294C8526D23715007C0677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57294C8326D23715007C0677 /* LaunchScreen.storyboard */; };
+		57294C8826D23715007C0677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294C8726D23715007C0677 /* main.m */; };
+		57294C9226D23715007C0677 /* OCAFNetWorkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294C9126D23715007C0677 /* OCAFNetWorkDemoTests.m */; };
+		57294C9D26D23715007C0677 /* OCAFNetWorkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294C9C26D23715007C0677 /* OCAFNetWorkDemoUITests.m */; };
+		BA0AA37BEF2915AB2224725E /* Pods_OCAFNetWorkDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B0F20998551B662AA2BB86 /* Pods_OCAFNetWorkDemoTests.framework */; };
+		DA1B2C7E9D9C1A68E36889FB /* Pods_OCAFNetWorkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A0B9FD3585D5495CFE1DCC /* Pods_OCAFNetWorkDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57294C8E26D23715007C0677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57294C6A26D23713007C0677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57294C7126D23713007C0677;
+			remoteInfo = OCAFNetWorkDemo;
+		};
+		57294C9926D23715007C0677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57294C6A26D23713007C0677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57294C7126D23713007C0677;
+			remoteInfo = OCAFNetWorkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB033E38C8CF106902F8932 /* Pods-OCAFNetWorkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAFNetWorkDemoTests.release.xcconfig"; path = "Target Support Files/Pods-OCAFNetWorkDemoTests/Pods-OCAFNetWorkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2431F0A6D3F4B462B0D6D767 /* Pods-OCAFNetWorkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAFNetWorkDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-OCAFNetWorkDemoTests/Pods-OCAFNetWorkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4725E100B77339A02B1FFAC4 /* Pods-OCAFNetWorkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAFNetWorkDemo.release.xcconfig"; path = "Target Support Files/Pods-OCAFNetWorkDemo/Pods-OCAFNetWorkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57294C7226D23713007C0677 /* OCAFNetWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCAFNetWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57294C7526D23713007C0677 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57294C7626D23713007C0677 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57294C7826D23713007C0677 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		57294C7926D23713007C0677 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		57294C7B26D23713007C0677 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57294C7C26D23713007C0677 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57294C7F26D23713007C0677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57294C8126D23715007C0677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57294C8426D23715007C0677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57294C8626D23715007C0677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57294C8726D23715007C0677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57294C8D26D23715007C0677 /* OCAFNetWorkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCAFNetWorkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57294C9126D23715007C0677 /* OCAFNetWorkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAFNetWorkDemoTests.m; sourceTree = "<group>"; };
+		57294C9326D23715007C0677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57294C9826D23715007C0677 /* OCAFNetWorkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCAFNetWorkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57294C9C26D23715007C0677 /* OCAFNetWorkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAFNetWorkDemoUITests.m; sourceTree = "<group>"; };
+		57294C9E26D23715007C0677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5763790B6EEF788699C6A91B /* Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92F01F6EE097559A046F15B8 /* Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95A0B9FD3585D5495CFE1DCC /* Pods_OCAFNetWorkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCAFNetWorkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B361F9081944252A849B5395 /* Pods_OCAFNetWorkDemo_OCAFNetWorkDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCAFNetWorkDemo_OCAFNetWorkDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B0F20998551B662AA2BB86 /* Pods_OCAFNetWorkDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCAFNetWorkDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C3D2C8FA8E67AE9DD4B62F /* Pods-OCAFNetWorkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAFNetWorkDemo.debug.xcconfig"; path = "Target Support Files/Pods-OCAFNetWorkDemo/Pods-OCAFNetWorkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57294C6F26D23713007C0677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1B2C7E9D9C1A68E36889FB /* Pods_OCAFNetWorkDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57294C8A26D23715007C0677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0AA37BEF2915AB2224725E /* Pods_OCAFNetWorkDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57294C9526D23715007C0677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16392D3B64B50A997A599369 /* Pods_OCAFNetWorkDemo_OCAFNetWorkDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57294C6926D23713007C0677 = {
+			isa = PBXGroup;
+			children = (
+				57294C7426D23713007C0677 /* OCAFNetWorkDemo */,
+				57294C9026D23715007C0677 /* OCAFNetWorkDemoTests */,
+				57294C9B26D23715007C0677 /* OCAFNetWorkDemoUITests */,
+				57294C7326D23713007C0677 /* Products */,
+				BB4198475D1CDFE5EA459B6A /* Pods */,
+				FB099E7A7B9A6F25D09FBBF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57294C7326D23713007C0677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57294C7226D23713007C0677 /* OCAFNetWorkDemo.app */,
+				57294C8D26D23715007C0677 /* OCAFNetWorkDemoTests.xctest */,
+				57294C9826D23715007C0677 /* OCAFNetWorkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57294C7426D23713007C0677 /* OCAFNetWorkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				57294C7526D23713007C0677 /* AppDelegate.h */,
+				57294C7626D23713007C0677 /* AppDelegate.m */,
+				57294C7826D23713007C0677 /* SceneDelegate.h */,
+				57294C7926D23713007C0677 /* SceneDelegate.m */,
+				57294C7B26D23713007C0677 /* ViewController.h */,
+				57294C7C26D23713007C0677 /* ViewController.m */,
+				57294C7E26D23713007C0677 /* Main.storyboard */,
+				57294C8126D23715007C0677 /* Assets.xcassets */,
+				57294C8326D23715007C0677 /* LaunchScreen.storyboard */,
+				57294C8626D23715007C0677 /* Info.plist */,
+				57294C8726D23715007C0677 /* main.m */,
+			);
+			path = OCAFNetWorkDemo;
+			sourceTree = "<group>";
+		};
+		57294C9026D23715007C0677 /* OCAFNetWorkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				57294C9126D23715007C0677 /* OCAFNetWorkDemoTests.m */,
+				57294C9326D23715007C0677 /* Info.plist */,
+			);
+			path = OCAFNetWorkDemoTests;
+			sourceTree = "<group>";
+		};
+		57294C9B26D23715007C0677 /* OCAFNetWorkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57294C9C26D23715007C0677 /* OCAFNetWorkDemoUITests.m */,
+				57294C9E26D23715007C0677 /* Info.plist */,
+			);
+			path = OCAFNetWorkDemoUITests;
+			sourceTree = "<group>";
+		};
+		BB4198475D1CDFE5EA459B6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3D2C8FA8E67AE9DD4B62F /* Pods-OCAFNetWorkDemo.debug.xcconfig */,
+				4725E100B77339A02B1FFAC4 /* Pods-OCAFNetWorkDemo.release.xcconfig */,
+				5763790B6EEF788699C6A91B /* Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.debug.xcconfig */,
+				92F01F6EE097559A046F15B8 /* Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.release.xcconfig */,
+				2431F0A6D3F4B462B0D6D767 /* Pods-OCAFNetWorkDemoTests.debug.xcconfig */,
+				0CB033E38C8CF106902F8932 /* Pods-OCAFNetWorkDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB099E7A7B9A6F25D09FBBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95A0B9FD3585D5495CFE1DCC /* Pods_OCAFNetWorkDemo.framework */,
+				B361F9081944252A849B5395 /* Pods_OCAFNetWorkDemo_OCAFNetWorkDemoUITests.framework */,
+				D2B0F20998551B662AA2BB86 /* Pods_OCAFNetWorkDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57294C7126D23713007C0677 /* OCAFNetWorkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57294CA126D23715007C0677 /* Build configuration list for PBXNativeTarget "OCAFNetWorkDemo" */;
+			buildPhases = (
+				E64BF452550506F3F73057CA /* [CP] Check Pods Manifest.lock */,
+				57294C6E26D23713007C0677 /* Sources */,
+				57294C6F26D23713007C0677 /* Frameworks */,
+				57294C7026D23713007C0677 /* Resources */,
+				EB439A2AB9E3B6230165CAD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCAFNetWorkDemo;
+			productName = OCAFNetWorkDemo;
+			productReference = 57294C7226D23713007C0677 /* OCAFNetWorkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57294C8C26D23715007C0677 /* OCAFNetWorkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57294CA426D23715007C0677 /* Build configuration list for PBXNativeTarget "OCAFNetWorkDemoTests" */;
+			buildPhases = (
+				518EE2DD55A9DC1769E68C4E /* [CP] Check Pods Manifest.lock */,
+				57294C8926D23715007C0677 /* Sources */,
+				57294C8A26D23715007C0677 /* Frameworks */,
+				57294C8B26D23715007C0677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57294C8F26D23715007C0677 /* PBXTargetDependency */,
+			);
+			name = OCAFNetWorkDemoTests;
+			productName = OCAFNetWorkDemoTests;
+			productReference = 57294C8D26D23715007C0677 /* OCAFNetWorkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57294C9726D23715007C0677 /* OCAFNetWorkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57294CA726D23715007C0677 /* Build configuration list for PBXNativeTarget "OCAFNetWorkDemoUITests" */;
+			buildPhases = (
+				93A7DA33E083DC09C44B121B /* [CP] Check Pods Manifest.lock */,
+				57294C9426D23715007C0677 /* Sources */,
+				57294C9526D23715007C0677 /* Frameworks */,
+				57294C9626D23715007C0677 /* Resources */,
+				E77C9BA7AB6652034BA656E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57294C9A26D23715007C0677 /* PBXTargetDependency */,
+			);
+			name = OCAFNetWorkDemoUITests;
+			productName = OCAFNetWorkDemoUITests;
+			productReference = 57294C9826D23715007C0677 /* OCAFNetWorkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57294C6A26D23713007C0677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					57294C7126D23713007C0677 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					57294C8C26D23715007C0677 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 57294C7126D23713007C0677;
+					};
+					57294C9726D23715007C0677 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 57294C7126D23713007C0677;
+					};
+				};
+			};
+			buildConfigurationList = 57294C6D26D23713007C0677 /* Build configuration list for PBXProject "OCAFNetWorkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57294C6926D23713007C0677;
+			productRefGroup = 57294C7326D23713007C0677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57294C7126D23713007C0677 /* OCAFNetWorkDemo */,
+				57294C8C26D23715007C0677 /* OCAFNetWorkDemoTests */,
+				57294C9726D23715007C0677 /* OCAFNetWorkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57294C7026D23713007C0677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57294C8526D23715007C0677 /* LaunchScreen.storyboard in Resources */,
+				57294C8226D23715007C0677 /* Assets.xcassets in Resources */,
+				57294C8026D23713007C0677 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57294C8B26D23715007C0677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57294C9626D23715007C0677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		518EE2DD55A9DC1769E68C4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCAFNetWorkDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A7DA33E083DC09C44B121B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64BF452550506F3F73057CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCAFNetWorkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E77C9BA7AB6652034BA656E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests/Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB439A2AB9E3B6230165CAD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCAFNetWorkDemo/Pods-OCAFNetWorkDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCAFNetWorkDemo/Pods-OCAFNetWorkDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCAFNetWorkDemo/Pods-OCAFNetWorkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57294C6E26D23713007C0677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57294C7D26D23713007C0677 /* ViewController.m in Sources */,
+				57294C7726D23713007C0677 /* AppDelegate.m in Sources */,
+				57294C8826D23715007C0677 /* main.m in Sources */,
+				57294C7A26D23713007C0677 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57294C8926D23715007C0677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57294C9226D23715007C0677 /* OCAFNetWorkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57294C9426D23715007C0677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57294C9D26D23715007C0677 /* OCAFNetWorkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57294C8F26D23715007C0677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57294C7126D23713007C0677 /* OCAFNetWorkDemo */;
+			targetProxy = 57294C8E26D23715007C0677 /* PBXContainerItemProxy */;
+		};
+		57294C9A26D23715007C0677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57294C7126D23713007C0677 /* OCAFNetWorkDemo */;
+			targetProxy = 57294C9926D23715007C0677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57294C7E26D23713007C0677 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57294C7F26D23713007C0677 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57294C8326D23715007C0677 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57294C8426D23715007C0677 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57294C9F26D23715007C0677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57294CA026D23715007C0677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57294CA226D23715007C0677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C3D2C8FA8E67AE9DD4B62F /* Pods-OCAFNetWorkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				INFOPLIST_FILE = OCAFNetWorkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JSH.OCAFNetWorkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57294CA326D23715007C0677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4725E100B77339A02B1FFAC4 /* Pods-OCAFNetWorkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				INFOPLIST_FILE = OCAFNetWorkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JSH.OCAFNetWorkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57294CA526D23715007C0677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2431F0A6D3F4B462B0D6D767 /* Pods-OCAFNetWorkDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				INFOPLIST_FILE = OCAFNetWorkDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JSH.OCAFNetWorkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCAFNetWorkDemo.app/OCAFNetWorkDemo";
+			};
+			name = Debug;
+		};
+		57294CA626D23715007C0677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB033E38C8CF106902F8932 /* Pods-OCAFNetWorkDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				INFOPLIST_FILE = OCAFNetWorkDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JSH.OCAFNetWorkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCAFNetWorkDemo.app/OCAFNetWorkDemo";
+			};
+			name = Release;
+		};
+		57294CA826D23715007C0677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5763790B6EEF788699C6A91B /* Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				INFOPLIST_FILE = OCAFNetWorkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JSH.OCAFNetWorkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCAFNetWorkDemo;
+			};
+			name = Debug;
+		};
+		57294CA926D23715007C0677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F01F6EE097559A046F15B8 /* Pods-OCAFNetWorkDemo-OCAFNetWorkDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				INFOPLIST_FILE = OCAFNetWorkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JSH.OCAFNetWorkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCAFNetWorkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57294C6D26D23713007C0677 /* Build configuration list for PBXProject "OCAFNetWorkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57294C9F26D23715007C0677 /* Debug */,
+				57294CA026D23715007C0677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57294CA126D23715007C0677 /* Build configuration list for PBXNativeTarget "OCAFNetWorkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57294CA226D23715007C0677 /* Debug */,
+				57294CA326D23715007C0677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57294CA426D23715007C0677 /* Build configuration list for PBXNativeTarget "OCAFNetWorkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57294CA526D23715007C0677 /* Debug */,
+				57294CA626D23715007C0677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57294CA726D23715007C0677 /* Build configuration list for PBXNativeTarget "OCAFNetWorkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57294CA826D23715007C0677 /* Debug */,
+				57294CA926D23715007C0677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57294C6A26D23713007C0677 /* Project object */;
+}
